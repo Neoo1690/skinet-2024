@@ -6,10 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-
+*/bin
+*/obj
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
+.vs/
+**/appsettings.Development.json
+.github
 # Runtime data
 pids
 *.pid
